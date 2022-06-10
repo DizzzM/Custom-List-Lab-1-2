@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CustomList.Demo/1.0.0": {
+        "dependencies": {
+          "CustomList.Library": "1.0.0"
+        },
+        "runtime": {
+          "CustomList.Demo.dll": {}
+        }
+      },
+      "CustomList.Library/1.0.0": {
+        "runtime": {
+          "CustomList.Library.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CustomList.Demo/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CustomList.Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
